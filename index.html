@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transition test page</title>
+        <style>
+            div {
+                width: 500px;
+                height: 500px;
+                background-color: beige;
+                position: relative;
+            }
+
+            img {
+                width: 5%;
+                transition: all 1s ease-in 1.2s;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            img:hover {
+                width: 200%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="contatiner">
+            <img src="transition.jpg">
+        </div>  
+    </body>
+
+</html>
